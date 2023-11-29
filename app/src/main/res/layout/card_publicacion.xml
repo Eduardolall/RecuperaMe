@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/morado_ad">
+
+    <!-- Foto del perfil -->
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/recuperame"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Nombre del usuario
+    <TextView
+        android:id="@+id/txtNombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de Usuario"
+        android:textSize="16sp"
+        android:layout_toEndOf="@id/imgPerfil"
+        android:layout_alignTop="@id/imgPerfil"/>-->
+
+    <!-- Contenido de la publicación -->
+    <TextView
+        android:id="@+id/nombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido de la publicación"
+        android:textSize="18sp"
+        android:layout_below="@id/imgPerfil"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Foto adjunta a la publicación -->
+    <ImageView
+        android:id="@+id/fotoProductp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/nombreProducto"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/perfil"/>
+
+    <!-- Botón "Me gusta" -->
+    <ImageView
+        android:id="@+id/btnMeGusta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/like"
+        android:layout_below="@id/fotoProductp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Número de "Me gusta"
+    <TextView
+        android:id="@+id/txtNumMeGusta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Me gusta"
+        android:textSize="14sp"
+        android:layout_below="@id/fotoProductp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/btnMeGusta"/>-->
+
+    <!-- Sección de comentarios android:layout_below="@id/txtNumMeGusta"
+    <LinearLayout
+        android:id="@+id/llComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="comentarios"/>-->
+        <!-- Los comentarios se pueden agregar dinámicamente aquí en tiempo de ejecución -->
+    <!--</LinearLayout>-->
+
+    <!-- Agregar más elementos según sea necesario, como botones de acciones, etc. -->
+
+</RelativeLayout>

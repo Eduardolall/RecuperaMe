@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RecuperaMe</string>
+    <string name="texto01">Bienvenido</string>
+    <string name="texto02">Nombre del objeto</string>
+    <string name="texto03">Categoria</string>
+    <string name="texto04">Fecha</string>
+    <string name="texto05">Publicar</string>
+    <string name="texto06">Nombre del objeto</string>
+    <string name="texto07">Ubicacion</string>
+    <string name="texto08">Comentario</string>
+
+    <string name="boton01">Ingresar</string>
+    <string name="boton02">Olvidaste la contraseña?</string>
+    <string name="boton03">No estoy Registrado!!</string>
+    <string name="boton04">Registrar</string>
+    <string name="boton05">Ya estoy registrado!!</string>
+    <string name="boton06">Cerrar Sesión</string>
+    <string name="boton07">Iniciar con Google</string>
+    <string name="boton10">Comentar</string>
+    <string name="boton11">Recuperar Contraseña</string>
+    <string name="boton12">Regresar</string>
+    <string name="boton13">Eliminar cuenta</string>
+    <string name="boton14">Perfil</string>
+    <string name="boton15">Guardar</string>
+    <string name="boton16">Eliminar Usuario</string>
+    <string name="boton17">Generar Comentario</string>
+
+
+    <string name="hint01">Correo Electrónico</string>
+    <string name="hint02">Contraseña</string>
+    <string name="hint03">Nombre</string>
+    <string name="hint04">Apellido Paterno</string>
+    <string name="hint05">Apellido Materno</string>
+    <string name="hint06">Comentario</string>
+    <string name="hint07">Comentario</string>
+    <string name="hint08">Descripcion del Objeto</string>
+
+    <string name="idCliente">989641456873-8eaf3et6vquhtouncbvelva4uo1uvr4r.apps.googleusercontent.com</string>
+
+
+</resources>

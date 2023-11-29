@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "989641456873",
+    "project_id": "recuperame-669ba",
+    "storage_bucket": "recuperame-669ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989641456873:android:47cb04bdfd7896983fc478",
+        "android_client_info": {
+          "package_name": "mx.tecnm.cdhidalgo.recuperame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989641456873-p55so97u2bbs75v3g768k0t5qik37tac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tecnm.cdhidalgo.recuperame",
+            "certificate_hash": "b39df86401f780c84f26306dd2f8ef236fbe68c5"
+          }
+        },
+        {
+          "client_id": "989641456873-8eaf3et6vquhtouncbvelva4uo1uvr4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerCqKl34FICWvIEuIAmgHSzbxM4DbRHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989641456873-8eaf3et6vquhtouncbvelva4uo1uvr4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

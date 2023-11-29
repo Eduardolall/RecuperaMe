@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="verde_23">#233C24</color>
+    <color name="azul_09">#0988ED</color>
+    <color name="morado_56">#5608DF</color>
+    <color name="morado_3d">#691CF1</color>
+    <color name="morado_ad">#9EB1D6</color>
+    <color name="morado_26">#260265</color>
+    <color name="gris_5e">#5F6275</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_primary_dark">#084E87</color>
+</resources>

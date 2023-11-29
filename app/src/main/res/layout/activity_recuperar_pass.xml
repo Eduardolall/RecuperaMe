@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="@color/white"
+    tools:context=".RecuperarPass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recuperame"
+            android:scaleX=".6"
+            android:scaleY=".6"
+            android:layout_marginTop="-130dp"
+            android:layout_marginBottom="-1dp"
+            android:transitionName="logo_trans"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_recuperar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint01"
+            app:boxStrokeColor="@color/morado_26"
+            app:hintTextColor="@color/morado_26">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnRecuperarPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton11"
+            android:textAllCaps="true"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/morado_26"/>
+
+
+        <Button
+            android:id="@+id/btnRegresar_recuperar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton12"
+            android:textAllCaps="true"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/morado_26"/>
+
+    </LinearLayout>
+
+</ScrollView>

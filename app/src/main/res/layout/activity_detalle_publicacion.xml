@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    tools:context=".DetallePublicacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <ImageButton
+                    android:id="@+id/btnRegresar_detalle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mg_salida"
+                    android:background="@color/white"
+                    app:tint="@color/morado_56"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageButton
+                    android:id="@+id/btnEliminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/delete_24"
+                    android:background="@color/white"
+                    app:tint="@color/morado_56"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <ImageView
+            android:id="@+id/foto_detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recuperame"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto02"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/nombre_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto02"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto03"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/categoria_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto03"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_background"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto04"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/fecha_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto04"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto07"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+        <TextView
+            android:id="@+id/ubicacion_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto07"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_background"/>
+
+        <Button
+            android:id="@+id/btnComentario"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/boton10"
+            android:background="@drawable/btn_background"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnGenerarComentario"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/boton17"
+            android:background="@drawable/btn_background"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
